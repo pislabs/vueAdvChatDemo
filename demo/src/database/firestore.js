@@ -1,6 +1,9 @@
 import { firestoreDb } from '@/database'
 
 import {
+	getDocs,
+	query,
+	getDoc,
 	addDoc,
 	arrayRemove,
 	arrayUnion,
@@ -9,18 +12,15 @@ import {
 	deleteField,
 	doc,
 	endAt,
-	getDoc,
-	getDocs,
 	limit,
 	onSnapshot,
 	orderBy,
-	query,
 	setDoc,
 	startAfter,
 	startAt,
 	updateDoc,
 	where
-} from 'firebase/firestore'
+} from '@/mock/firebase/firestore'
 
 const USERS_PATH = 'users'
 const ROOMS_PATH = 'chatRooms'

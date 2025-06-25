@@ -5,7 +5,7 @@ import {
 	getDownloadURL,
 	ref,
 	uploadBytesResumable
-} from 'firebase/storage'
+} from '@/mock/firebase/storage'
 
 const FILES_PATH = 'files'
 

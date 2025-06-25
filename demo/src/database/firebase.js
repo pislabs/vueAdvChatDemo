@@ -6,7 +6,7 @@ import {
 	ref,
 	serverTimestamp,
 	set
-} from 'firebase/database'
+} from '@/mock/firebase/database'
 
 export const firebaseListener = onValue
 
