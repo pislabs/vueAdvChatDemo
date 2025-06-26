@@ -26,12 +26,8 @@
 			</select>
 
 			<div v-if="showOptions" class="button-theme">
-				<button class="button-light" @click="theme = 'light'">
-					Light
-				</button>
-				<button class="button-dark" @click="theme = 'dark'">
-					Dark
-				</button>
+				<button class="button-light" @click="theme = 'light'">Light</button>
+				<button class="button-dark" @click="theme = 'dark'">Dark</button>
 				<button class="button-github">
 					<a href="https://github.com/advanced-chat/vue-advanced-chat">
 						<img src="@/assets/github.svg" />
@@ -78,7 +74,8 @@ export default {
 				{
 					_id: 'SGmFnBZB4xxMv9V4CVlW',
 					username: 'Leia',
-					avatar: 'https://media.glamour.com/photos/5695e9d716d0dc3747eea3ef/master/w_1600,c_limit/beauty-2015-12-princess-leia-1-main.jpg'
+					avatar:
+						'https://media.glamour.com/photos/5695e9d716d0dc3747eea3ef/master/w_1600,c_limit/beauty-2015-12-princess-leia-1-main.jpg'
 				},
 				{
 					_id: '6jMsIXUrBHBj7o2cRlau',

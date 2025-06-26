@@ -20,11 +20,12 @@ import {
 	startAt,
 	updateDoc,
 	where
-} from '@/mock/firebase/firestore'
+} from 'firebase/firestore'
 
 const USERS_PATH = 'users'
 const ROOMS_PATH = 'chatRooms'
 const MESSAGES_PATH = 'messages'
+
 const MESSAGE_PATH = roomId => {
 	return `${ROOMS_PATH}/${roomId}/${MESSAGES_PATH}`
 }

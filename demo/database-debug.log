@@ -1,0 +1,13 @@
+19:10:42.943 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+19:10:43.092 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+19:11:57.811 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - mqtt-demo-4537e successfully activated FBKV (SurveyIdle(0)) wait: 108ms, init: 0ms
+19:24:44.109 [FirebaseWorkerPool-1-1] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace mqtt-demo-4537e-default-rtdb, but the emulator is configured for mqtt-demo-4537e. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+19:24:44.114 [NamespaceSystem-akka.actor.default-dispatcher-13] INFO com.firebase.core.namespace.NamespaceActor - mqtt-demo-4537e-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 1ms, init: 0ms
+19:27:52.671 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+19:27:52.675 [NamespaceSystem-akka.actor.default-dispatcher-15] INFO com.firebase.core.namespace.Terminator$Terminator - 2 actors left to terminate: mqtt-demo-4537e-default-rtdb, mqtt-demo-4537e
+19:27:52.679 [NamespaceSystem-akka.actor.default-dispatcher-17] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for mqtt-demo-4537e-default-rtdb
+19:27:52.679 [NamespaceSystem-akka.actor.default-dispatcher-18] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for mqtt-demo-4537e
+19:27:52.682 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
